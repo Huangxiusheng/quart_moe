@@ -1,0 +1,58 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "wikitext__wikitext-2-raw-v1",
+  "dataset_size": 13526093,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/carlosejimenez/wikitext__wikitext-2-raw-v1@d575192455c5e98b8daed777574046264579cb09/data/train-00000-of-00001-6506f33274247c0c.parquet": {
+      "num_bytes": 6357542,
+      "checksum": null
+    },
+    "hf://datasets/carlosejimenez/wikitext__wikitext-2-raw-v1@d575192455c5e98b8daed777574046264579cb09/data/validation-00000-of-00001-ee9a0a71dcb41f66.parquet": {
+      "num_bytes": 657208,
+      "checksum": null
+    },
+    "hf://datasets/carlosejimenez/wikitext__wikitext-2-raw-v1@d575192455c5e98b8daed777574046264579cb09/data/test-00000-of-00001-7231805191546d57.parquet": {
+      "num_bytes": 732609,
+      "checksum": null
+    }
+  },
+  "download_size": 7747359,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 21273452,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 11061717,
+      "num_examples": 36718,
+      "dataset_name": "wikitext__wikitext-2-raw-v1"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 1159288,
+      "num_examples": 3760,
+      "dataset_name": "wikitext__wikitext-2-raw-v1"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1305088,
+      "num_examples": 4358,
+      "dataset_name": "wikitext__wikitext-2-raw-v1"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
